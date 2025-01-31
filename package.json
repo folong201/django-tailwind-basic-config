@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "generate": "npx @tailwindcss/cli -i ./monprojet/app1/static/css/input.css -o ./monprojet/app1/static/css/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.2",
+    "tailwindcss": "^4.0.2"
+  }
+}
